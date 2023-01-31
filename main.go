@@ -101,7 +101,6 @@ func main() {
 	}
 
 	<-done
-	logger.Println("Server stopped")
 }
 
 func index() http.Handler {
