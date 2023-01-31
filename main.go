@@ -37,7 +37,7 @@ var (
 var healthy int32
 
 func main() {
-	flag.StringVar(&listenAddr, "listen-addr", ":5000", "server listen address")
+	flag.StringVar(&listenAddr, "listen-addr", ":8080", "server listen address")
 	flag.IntVar(&rps, "rps", 425, "requests per second throttling limit")
 	flag.IntVar(&burst, "burst", 10, "concurrently handled requests before queueing")
 	flag.DurationVar(&timeout, "timeout", 75*time.Millisecond, "time after which quequed requests are dropped")
