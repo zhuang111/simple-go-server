@@ -117,6 +117,9 @@ func index() http.Handler {
 		w.Header().Set("X-Content-Type-Options", "nosniff")
 		w.WriteHeader(http.StatusOK)
 		fmt.Fprintln(w, "Hello, World!")
+		fmt.Fprintln(w, "Hello, World!")
+		fmt.Fprintln(w, "Hello, World!")
+		fmt.Fprintln(w, "Hello, World!")
 	})
 }
 
