@@ -118,8 +118,6 @@ func index() http.Handler {
 		w.WriteHeader(http.StatusOK)
 		fmt.Fprintln(w, "Hello, World!")
 		fmt.Fprintln(w, "Hello, World!")
-		fmt.Fprintln(w, "Hello, World!")
-		fmt.Fprintln(w, "Hello, World!")
 	})
 }
 
